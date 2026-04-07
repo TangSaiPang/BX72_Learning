@@ -12,10 +12,10 @@ module led_ctr3(
 
     reg [24:0]cnt0;
 //    reg en_cnt0;
-    wire en_cnt0;
+    wire en_cnt0;    // enable timer_250ms
     reg [2:0]cnt1;
     reg [25:0]cnt2;
-    reg en_cnt2;
+    reg en_cnt2;    // enable timer_1000ms
 
     parameter TIME_UNIT_250MS = 12_500_000 - 1;
 
